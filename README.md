@@ -20,11 +20,13 @@ https://git-scm.com/
  - Mac (brew): brew install git
 ## Criar conta no GitHub
 ## Clonar Projeto
-git clone 
+git clone https://github.com/ericferrari93/curso-frontEnd.git
 
 ## Commits 
 Informações de alteração 
  - Após testado todo seu código
+ - git add *
+ - git commit -m "mensagem"
 
 ## GitFlow
 Fluxo do Git
