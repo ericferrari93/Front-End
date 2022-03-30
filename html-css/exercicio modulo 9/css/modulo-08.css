@@ -1,0 +1,151 @@
+@import url('tabelas.css');
+
+
+
+
+html {
+	font-family: sans-serif;
+	color: #333333;
+}
+
+p {
+	color: #454545;
+}
+
+header p {
+	color: green;
+	font-size: 20px;
+}
+
+
+
+header h2 {
+	font-weight: 100;
+}
+
+
+header > h2 {
+	font-weight: 600;
+}
+
+h2 + p {
+	background: #FF0;
+	color: #333;
+}
+
+h2 ~ h5 {
+	font-size: 15px;
+}
+
+div ~ p {
+	text-transform: uppercase;
+    padding: 20px 0;
+    margin: 0;
+}
+
+
+a {
+	color: #555555;
+	text-decoration: none;
+	font-size: 1.5rem;
+	display: block;
+	width: 100%;
+	height: auto;
+}
+
+a:visited {
+	color: #f00;
+}
+
+a:active {
+	color: #096;
+}
+
+a:hover {
+	color: #009;
+	background: #eee;
+}
+
+
+html {
+	font-family: sans-serif;
+}
+
+h1, h2, h3 {
+	font-weight: 400;
+	font-family: 'Limelight', cursive;
+}
+
+p {
+	font-weight: normal;
+	font-size: 30px;
+	text-align: center;
+	color: black;
+}
+
+ul {
+	padding-left: .5rem;
+	margin-left: .5rem;	
+}
+
+li {
+	letter-spacing: 0.01rem;
+	font-family: sans-serif;
+	line-height: 1.5;
+}
+
+
+body {
+	background: url('../images/dynamus1.jpg') center top #EEEEEE;
+}
+
+section {
+	background: grey;
+}
+
+p {
+    color: white;
+}
+
+header,
+footer {
+	background-color: peru;
+}
+
+footer p {
+	color: rgb(255, 255, 255);
+}
+
+.navegacao {
+	background-color: grey;
+	padding: 0.5rem;
+}
+
+.navegacao li a {
+	color: white;
+	font-size: 30px;
+}
+
+.navegacao li a:hover {
+	background-color: peru;
+    color: black;
+}
+
+div {
+    margin: 40px auto;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+	max-width: 100%;
+	max-height: 100%;
+}
+
+.form{
+    background: #fff;
+	border-bottom: 1px solid #33f;
+	margin: 1rem;
+	padding: 2rem;
+}
