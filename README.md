@@ -40,3 +40,8 @@ São ramificações / versões do código que pode correr de modo paralelos
 - develop 
 - DOD Definition of Done: critérios de aceite
 - versionamento 1.0.0
+
+git checkout -b dev (cria uma branch)
+git checkout -b main (mudar de branch) 
+### Merge
+Mescla de versões branchs
