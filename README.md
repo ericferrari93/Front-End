@@ -58,4 +58,4 @@ O repositório resolve os conflitos automaticamente
 
 ### Configurar o GitFlow
 git flow init
-git flow feature start {nome-da-feature}
+git flow feature start {nome-da-feature} aa
