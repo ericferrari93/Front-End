@@ -131,3 +131,12 @@ footer small {
     font-size: 80%;
     display: block;
 }
+
+.cognito {
+    height: 380px !important;
+    overflow: hidden !important;
+}
+
+.cog-abuse {
+    visibility: hidden !important;
+}
