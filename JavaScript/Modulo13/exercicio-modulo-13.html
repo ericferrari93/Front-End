@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  
+<head>
+  <style type="text/css">
+    body {
+      margin: 30px;
+    }
+  </style>
+</head>
+  
+<body>
+  <h3>
+    E) Quantas prestações são necessárias para pagar o valor do carro com uma entrada
+de 3.000? Demonstre a operação.
+  </h3>
+  <form>
+    Valor do Carro : <input type="text" 
+    id="n1" /><br>
+    Valor da Entrada: <input type="text" 
+    id="n2" /><br>
+    Valor da Parcela: <input type="text" 
+    id="n3" /><br>
+    <input type="button" onClick="calculo()" 
+    Value="Resultado" /><br>
+  </form>
+  
+  <p>Valor Final : <br>
+   <span id = "result"></span>
+  </p>
+  
+  
+  <script>
+    function calculo()
+    {
+      num1 = document.getElementById(
+        "n1").value;
+      num2 = document.getElementById(
+        "n2").value;
+      num3 = document.getElementById(
+        "n3").value;
+      document.getElementById(
+        "result").innerHTML = (num1 - num2) / num3;
+    }
+  </script>
+</body>
+  
+</html>
