@@ -11,7 +11,7 @@ function calcularMedia( notas ) {
 
 }
 
-let media; // escopo global
+let media; 
 
 function aprovacao( notas ) {
 
@@ -24,7 +24,7 @@ function aprovacao( notas ) {
 }
 
 
-// Função Recursivas
+
 
 function contagemRegressiva(numero){
 
